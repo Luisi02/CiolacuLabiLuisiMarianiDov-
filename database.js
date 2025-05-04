@@ -37,37 +37,6 @@ const database = {
    //Aula classe
 
 
-   insert: async (book) => {
-      //INSERIMENTO ELEMENTO NELLA TABELLA
-      let sql = `
-         INSERT INTO booking (idType, date, hour, name)
-         VALUES ('${book.idType}', '${book.date}', '${book.hour}', '${book.name}')
-           `;
-      console.log("SQL INSERIMENTO-> ", book);
-      return await executeQuery(sql)
-    },
-
-   delete: (id) => {
-      //ELIMINAZIONE ELEMENTO DALLA TABELLA
-      let sql = `
-      DELETE FROM booking
-      WHERE id = $ID
-      `;
-      sql = sql.replace('$ID', id)
-      return executeQuery(sql);
-    }, 
-
-   update: (orario) => {
-      //MODIFICARE DOPO
-      let sql = `
-      UPDATE todo
-      SET completed=$COMPLETED
-      WHERE id=$ID
-         `;
-      sql = sql.replace("%ID", todo.id);
-      sql = sql.replace("%COMPLETED", todo.completed);
-      return executeQuery(sql); 
-   },
 
 }
 
