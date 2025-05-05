@@ -24,3 +24,15 @@
   padding-top: 200px;
   font-size: 50px;
 }
+
+.login{
+  text-align: center;
+  padding-top: 200px;
+  font-size: 50px;
+}
+
+.entra{
+  text-align: center;
+  transform: scale(3);
+  padding-top: 3px;
+}
