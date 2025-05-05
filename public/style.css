@@ -33,6 +33,23 @@
 
 .entra{
   text-align: center;
-  transform: scale(3);
+  transform: scale(2);
   padding-top: 3px;
+}
+
+.Pagina-Principale{
+  text-align: center;
+  transform: scale(2);
+  padding-top: 25px;
+}
+
+.cerca{
+  text-align: center;
+  padding: 120px;
+  transform: scale(3);
+}
+
+.visualizza{
+  text-align: center;
+  transform: scale(3);
 }
